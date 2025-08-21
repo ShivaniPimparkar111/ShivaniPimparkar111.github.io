@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Apple Color Emoji'}
+    span.s2 {font: 12.0px 'Songti SC'}
+    span.s3 {font: 12.0px 'Times New Roman'}
+  </style>
+</head>
+<body>
+<p class="p1"><b>&lt;!DOCTYPE html&gt;</b></p>
+<p class="p1"><b>&lt;html lang="en"&gt;</b></p>
+<p class="p1"><b>&lt;head&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;title&gt;Shivani Pimparkar&lt;/title&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;meta name="description" content="Personal website and portfolio of Shivani Pimparkar. Work in progress." /&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;style&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>:root {</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--bg: #0d1117; <span class="Apple-converted-space">        </span>/* dark background */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--panel: #161b22;<span class="Apple-converted-space">      </span>/* card background */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--line: #30363d; <span class="Apple-converted-space">      </span>/* borders */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--text: #e6edf3; <span class="Apple-converted-space">      </span>/* main text */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--muted: #9aa7b2;<span class="Apple-converted-space">      </span>/* secondary text */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--acc: #58a6ff;<span class="Apple-converted-space">        </span>/* accent blue */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--acc2: #3fb950; <span class="Apple-converted-space">      </span>/* accent green */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--radius: 18px;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>--shadow: 0 10px 28px rgba(0,0,0,.28);</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>*{box-sizing:border-box}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>a{color:var(--acc);text-decoration:none}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>a:hover{text-decoration:underline}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>/* Header */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>header{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.6);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.nav{max-width:1080px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;justify-content:space-between}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.brand{font-weight:800;letter-spacing:.3px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.menu{display:flex;gap:16px;flex-wrap:wrap}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.menu a{color:var(--text);opacity:.9}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.menu a:hover{opacity:1}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.container{max-width:1080px;margin:0 auto;padding:24px}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>/* Hero */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.hero{display:grid;gap:20px;padding:48px 0}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tag{display:inline-block;background:rgba(63,185,80,.12);color:var(--acc2);border:1px solid rgba(63,185,80,.35);padding:6px 10px;border-radius:999px;font-weight:600}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>h1{font-size:clamp(28px,4vw,44px);margin:10px 0}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.lead{color:var(--muted);margin:4px 0 16px}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>/* Cards */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.card .pad{padding:22px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.card h2{margin:0 0 8px;font-size:22px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.card p{margin:0 0 12px;color:var(--muted)}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:#0b1320;color:var(--text)}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.btn.primary{background:var(--acc);color:#0b1320;border-color:transparent}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.btn:hover{filter:brightness(1.08)}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>/* Media */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>img.certificate{width:100%;max-width:760px;border-radius:12px;border:1px solid var(--line);box-shadow:var(--shadow)}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>footer{margin:48px 0 24px;color:var(--muted);text-align:center}<span class="Apple-converted-space">    </span>.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}<span class="Apple-converted-space">    </span>/* Tabs */</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>[hidden]{display:none !important}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tabs{margin-top:10px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tablist{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tablist button{background:transparent;border:1px solid var(--line);border-bottom:none;padding:10px 14px;border-top-left-radius:12px;border-top-right-radius:12px;color:var(--text);opacity:.9;cursor:pointer}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tablist button[aria-selected="true"]{background:var(--panel);opacity:1}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>.tablist button:focus{outline:2px solid var(--acc);outline-offset:2px}</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;/style&gt;</b></p>
+<p class="p1"><b>&lt;/head&gt;</b></p>
+<p class="p1"><b>&lt;body&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;header&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;nav class="nav"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="brand"&gt;Shivani Pimparkar&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="menu"&gt;&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/nav&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;/header&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;main class="container"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- Hero --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section class="hero"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;</b><span class="s1">🚧</span><b> Work in progress&lt;/span&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;h1&gt;Shivani Pimparkar&lt;/h1&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;p class="lead"&gt;Bioinformatician · Graduate Student at Boston University — &lt;strong&gt;Work in progress&lt;/strong&gt;&lt;/p&gt;</b></p>
+<p class="p2"><b><span class="Apple-converted-space">      </span></b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;div class="tabs"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div role="tablist" aria-label="Sections" class="tablist"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;button role="tab" id="tab-about" aria-selected="true" aria-controls="panel-about"&gt;About&lt;/button&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;button role="tab" id="tab-projects" aria-selected="false" aria-controls="panel-projects"&gt;Projects&lt;/button&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;button role="tab" id="tab-cv" aria-selected="false" aria-controls="panel-cv"&gt;CV&lt;/button&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;button role="tab" id="tab-social" aria-selected="false" aria-controls="panel-social"&gt;Social&lt;/button&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;button role="tab" id="tab-contact" aria-selected="false" aria-controls="panel-contact"&gt;Contact&lt;/button&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- About --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section id="panel-about" role="tabpanel" aria-labelledby="tab-about" class="card"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h2&gt;About Me&lt;/h2&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;Hi! I am a passionate bioinformatician and graduate student at Boston University. I specialize in computational biology, data analysis, and molecular docking. Welcome to my portfolio!&lt;/p&gt;</b></p>
+<p class="p2"><b><span class="Apple-converted-space">        </span></b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- Projects --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" hidden style="margin-top:20px"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h2&gt;Projects&lt;/h2&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;div class="grid" style="margin-top:12px"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;!-- New projects added --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;Nextflow Pipeline Development for NGS Data Analysis&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Boston University • Jan 2025 – May 2025&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Developed Nextflow pipelines for RNA‑Seq, ChIP‑Seq, and ATAC‑Seq; performed single‑cell RNA‑Seq (scRNA‑Seq) processing and analysis.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Automated read alignment, quality control, differential expression, peak calling, and gene‑set enrichment using Docker, Git, and HPC clusters.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;RNA‑Seq Analysis &amp; R Shiny Application Development&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Boston University • Oct 2024 – Dec 2024&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Conducted DGE using DESeq2, PCA, hierarchical clustering, and GSEA (fgsea) for pathway enrichment.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Built an interactive R Shiny app with PCA plots, clustered heatmaps, DE analysis, and fgsea‑based enrichment with dynamic controls.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;RootOmics: Functional Gene Database for Soil Microbial Nutrient Cycling&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Boston University • Feb 2025 – May 2025&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Built a database integrating KEGG, GO, and metagenomics data to map microbial roles in C/N/P cycling.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Designed and implemented an SQL‑based query interface to extract enzyme functions and stress responses.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;!-- Existing projects --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;Spatial Transcriptomics Relocation using Lipid‑Modified Oligos&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;Masters project at Queen’s University Belfast: enabling relocation of single cells in tissue for downstream profiling; imaging (Nikon), ImageJ, 10x sample prep, R/Python analysis on HPC.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;AI‑Aided Diabetic Retinopathy &amp; Glaucoma Screening&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;Clinical data curation and evaluation of smartphone‑based retinal imaging for AI detection at Renuka Netralaya &amp; Research Foundation; sensitivity and reliability assessment against clinical findings.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;Interactive R Shiny App for Transcriptomics&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;End‑to‑end visualization and DE analysis (DESeq2, GSEA) focused on Huntington’s disease transcriptomics.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;Proteomics‑based miRNA Biomarker Analysis&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;Exploratory biomarker discovery using Python and GEOparse on public GEO datasets.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;Alpha‑Synuclein Structure Modeling&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;Modeling Parkinson’s‑associated mutations with SWISS‑MODEL and PyMOL; structural impact assessment.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h3&gt;COVID‑19 App (SAMADHAN Challenge)&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;National Innovation Challenge (MHRD, Govt. of India) — Top 200 selection.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;a class="btn" href="https://www.youtube.com/watch?v=A_tNof91aDE&amp;list=PLw3Jve-SiqNgdfg1t2O_T4INmKI1t0uRz" target="_blank" rel="noopener"&gt;Watch overview </b><span class="s2"><b>↗</b></span><b>&lt;/a&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- Social Work --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section id="panel-social" role="tabpanel" aria-labelledby="tab-social" class="card" hidden style="margin-top:20px"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h2&gt;Social Work&lt;/h2&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;I’m proud to volunteer with AACCI. You can read more about my work here:&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;a href="https://www.aacci.in/shivani-pimarkar.html" target="_blank" rel="noopener"&gt;AACCI – Shivani Pimparkar profile </b><span class="s2"><b>↗</b></span><b>&lt;/a&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- CV --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section id="panel-cv" role="tabpanel" aria-labelledby="tab-cv" class="card" hidden style="margin-top:20px"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h2&gt;Curriculum Vitae&lt;/h2&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;This section summarizes my education, research experience, projects, and achievements. You can also download the full PDF below.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;a class="btn" href="assets/Shivani_Pimparkar_CV_Updated_2025.pdf" download&gt;Download full CV (PDF) </b><span class="s3"><b>↓</b></span><b>&lt;/a&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/p&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Education&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;strong&gt;Boston University&lt;/strong&gt; — M.S. in Bioinformatics (Aug 2024 – Present). Relevant coursework: Applications in Bioinformatics; Programming (Python, R); Data Analytics; Machine Learning; Molecular Biology &amp; Biochemistry; Biological Database Analysis.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;strong&gt;Dr. D.Y. Patil Biotechnology &amp; Bioinformatics Institute, Pune&lt;/strong&gt; — M.Tech (Integrated) Biotechnology (Graduated Aug 2023). Coursework: Animal Tissue Culture; Molecular Biology; C Programming; Design &amp; Analysis of Algorithms; Omics Technology; Structural Biology; Molecular Cell Signalling; Recombinant DNA Technology.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Research Experience&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;div class="grid"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h4&gt;Graduate Bioinformatics Intern — Boston University&lt;/h4&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Boston, MA • May 2025 – Aug 2025 (&lt;a href="https://sites.bu.edu/bmsip/" target="_blank" rel="noopener"&gt;BMSIP 2025 </b><span class="s2"><b>↗</b></span><b>&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Analyzed scRNA‑seq from cortical organoids to understand neuronal development and cellular responses.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Collaborated with wet‑lab team; performed differential gene expression analysis.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Conducted pseudotime trajectory analysis for lineage and cell‑fate dynamics.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h4&gt;Clinical Research Assistant — Renuka Netralaya &amp; Research Foundation&lt;/h4&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Pune, India • Jul 2023 – Jul 2024 (Dr. Chitra Sambare)&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Assisted in 2‑D fundus photography; curated images for AI‑based prediction of diabetic retinopathy &amp; glaucoma.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Collected and analyzed AI diagnostic data using smartphone imaging.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Assessed sensitivity and reliability of AI detection vs. clinical findings.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h4&gt;Masters Project Student — Wellcome‑Wolfson Inst., Queen’s University Belfast&lt;/h4&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Belfast, UK • Nov 2022 – May 2023 (Prof. David Simpson)&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Thesis: &lt;em&gt;Spatial Transcriptomics: Use of Lipid‑Modified Oligos to Enable Relocation of Single Cells in a Tissue&lt;/em&gt;.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Cell culture (HEK293), lipid‑modified oligo tagging, 10x Genomics sample prep.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Imaging (Nikon 6D), ImageJ analysis; NGS processing on Kelvin2 HPC; scRNA‑seq analysis in R/Python.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;DNA/RNA prep for Illumina &amp; Nanopore; presented data in weekly meetings and NI Science Festival 2023 outreach.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;div class="card"&gt;&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;h4&gt;Project Intern — Deenanath Mangeshkar Hospital &amp; Research Centre&lt;/h4&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;em&gt;Pune, India • Jan – Jul 2022&lt;/em&gt;&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Identified and classified maternal cell contamination in sex‑chromosome mosaic FISH samples.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Analyzed 4,439 amniotic fluid FISH datasets for maternal cell contamination.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">              </span>&lt;li&gt;Conducted DNA/RNA extraction; supported diagnostic workflows; assisted during NABL/NABH audit 2022.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">            </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;/div&gt;&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/div&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Coursework Projects — Boston University&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;strong&gt;Interactive R Shiny App for Transcriptomics&lt;/strong&gt; — Visualization for Huntington’s Disease (DESeq2, GSEA).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;strong&gt;Proteomics‑based miRNA Analysis&lt;/strong&gt; — Biomarker investigation using Python and GEOparse on public GEO datasets.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;strong&gt;Alpha‑Synuclein Structure Modeling&lt;/strong&gt; — Parkinson’s‑associated mutations analyzed with PyMOL &amp; SWISS‑MODEL.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Publications &amp; Presentations&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Paper: “Can self‑esteem be a protective factor to deal with exam anxiety?” — 9th ICLSE 2024. &lt;a href="https://www.aacci.in/documents/pdf/Paper%20and%20Poster%20Presentation%20reporting_page-0003.jpg" target="_blank" rel="noopener"&gt;certificate </b><span class="s2"><b>↗</b></span><b>&lt;/a&gt;&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Posters: Modernization Boon or Bane for Adolescent Health (D.Y. Patil Homoeopathic Medical College); Selective Treatment in Twin‑Twin Transfusion Syndrome (World Bioethics Day 2020, UNESCO Chair).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Honors &amp; Awards&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Second Prize (Poster) — World Bioethics Day 2020, D.Y. Patil Medical College.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Top 200 — &lt;a href="https://www.youtube.com/watch?v=A_tNof91aDE&amp;list=PLw3Jve-SiqNgdfg1t2O_T4INmKI1t0uRz" target="_blank" rel="noopener"&gt;National Innovation Challenge Samadhan (COVID‑19 App) </b><span class="s2"><b>↗</b></span><b>&lt;/a&gt;, Ministry of HRD, Govt. of India.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Panelist — Mental Health Webinar, Association of Adolescent and Child Care in India.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Student Representative — PTA, Dr. D.Y. Patil Institute (2021–2022).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Community Engagement&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Northern Ireland Science Festival (NISF 2023): Organized &amp; led interactive bioinformatics activities.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;a href="https://www.aacci.in/shivani-pimarkar.html" target="_blank" rel="noopener"&gt;Association of Adolescent and Child Care in India (AACCI)&lt;/a&gt; (Dec 2020 – Present): Youth Forum member; awareness campaigns &amp; webinars.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Project Encephalon (Dec 2021 – Present): Associate Chief Human Resources Officer; neuroscience outreach.&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h3&gt;Workshops &amp; Training&lt;/h3&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;R Programming Training — Dr. D.Y. Patil Institute (Jun–Jul 2019).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Bioinformatics Hands‑On — ZOEACS Life Science LLP (Jun 2020).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;li&gt;Molecular Biology for Young Scientists — IISER Pune (Jan 2020).&lt;/li&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/ul&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;!-- Contact --&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;section id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" class="card" hidden style="margin-top:20px"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;div class="pad"&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;h2&gt;Contact&lt;/h2&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;Feel free to reach out for collaboration, research opportunities, or just to say hi.&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span></b><span class="s1">📧</span><b> &lt;a href="mailto:shhivani@bu.edu"&gt;shhivani@bu.edu&lt;/a&gt;&lt;br/&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span></b><span class="s1">🔗</span><b> &lt;a class="btn" href="https://github.com/shivanipimparkar" target="_blank" rel="noopener"&gt;GitHub&lt;/a&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">          </span>&lt;a class="btn" href="https://www.linkedin.com/in/shivani-pimparkar" target="_blank" rel="noopener"&gt;LinkedIn&lt;/a&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>&lt;/p&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>&lt;/div&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/section&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;footer&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>© &lt;span id="year"&gt;&lt;/span&gt; Shivani Pimparkar • This site is a work in progress.</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>&lt;/footer&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;/main&gt;</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;script&gt;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>// year</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>document.getElementById('year').textContent = new Date().getFullYear();</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>// tabs</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>const tabs = document.querySelectorAll('[role="tab"]');</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>const panels = document.querySelectorAll('[role="tabpanel"]');</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>function activateTab(tab){</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>tabs.forEach(t=&gt;t.setAttribute('aria-selected','false'));</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>panels.forEach(p=&gt;p.hidden = true);</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>tab.setAttribute('aria-selected','true');</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>const panel = document.getElementById(tab.getAttribute('aria-controls'));</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>if(panel) panel.hidden = false;</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>// update hash for deep links</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>history.replaceState(null,'','#' + tab.id.replace('tab-',''));</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>}</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>tabs.forEach(tab =&gt; {</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>tab.addEventListener('click',()=&gt;activateTab(tab));</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>tab.addEventListener('keydown',(e)=&gt;{</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>const i = Array.from(tabs).indexOf(tab);</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>if(e.key==='ArrowRight') tabs[(i+1)%tabs.length].focus();</b></p>
+<p class="p1"><b><span class="Apple-converted-space">        </span>if(e.key==='ArrowLeft') tabs[(i-1+tabs.length)%tabs.length].focus();</b></p>
+<p class="p1"><b><span class="Apple-converted-space">      </span>});</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>});</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>// deep link support</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>const hash = location.hash.replace('#','');</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>const deep = document.getElementById('tab-' + hash);</b></p>
+<p class="p1"><b><span class="Apple-converted-space">    </span>if(deep){ activateTab(deep); } else { activateTab(document.getElementById('tab-about')); }</b></p>
+<p class="p1"><b><span class="Apple-converted-space">  </span>&lt;/script&gt;</b></p>
+<p class="p1"><b>&lt;/body&gt;</b></p>
+<p class="p1"><b>&lt;/html&gt;</b></p>
+</body>
+</html>
